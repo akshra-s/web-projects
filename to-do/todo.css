@@ -1,0 +1,25 @@
+body{
+  text-align: center;
+  line-height:2.5em;
+ }
+
+div{
+  height: 1500px;
+  width: 300px;
+  border: rgb(0, 0, 0) solid;
+  margin: auto;
+  background-color: palevioletred;
+  
+}
+button{
+  border: rgb(0, 0, 0) solid;
+  margin: auto;
+  background-color: rgb(131, 202, 225);
+}
+h1{
+  color:rgb(0, 0, 0) ;
+  border: rgb(0, 0, 0) solid;
+}
+.s{
+  background-color: rgb(255, 242, 0);
+}

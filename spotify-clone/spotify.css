@@ -1,0 +1,341 @@
+*{
+  font-family: "Montserrat", sans-serif;
+  /* background-color: black; */
+  color: white;
+  margin:0;
+  overflow: hidden;
+}
+body{
+    background-color: black;
+}
+.main{
+    display: flex;
+    height: 100vh;
+    padding: 0.3rem;
+   
+}
+.sidebar{
+    /* background-color: brown; */
+    background-color:black;
+    /* width: fit-content; */
+    border-radius: 1rem;
+    margin: 5px;
+    margin-right: 0.5rem;
+}
+.nav{
+    border-radius: 1rem;
+    background-color:#121212 ;
+    MARgin: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100px;
+    padding:0.5rem 0.75rem ;
+}
+.nav-opt{
+    height: 2.5rem;
+    opacity: 0.6;
+    padding: 8px;
+}
+.nav-opt:hover{
+    opacity: 1;
+}
+.nav-opt i{
+    font-size: 1.25rem;
+}
+.nav-opt a{
+    font-size: 1rem;
+    margin-left: 1rem;
+    margin-bottom: 2px;
+}
+
+.main-content{
+    /* background-color: aqua; */
+    flex: 1;
+    border-radius: 1rem;
+    background-color:#121212 ;
+    MARgin: 5px;
+    overflow: auto;
+    padding:0 1.5rem 0 1.5rem ;
+
+}
+.music-player{
+    /* background-color: chartreuse; */
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    height: 75px;
+    border-radius: 1rem;
+    background-color:#121212 ;
+    margin: 5px 5px 5px 5px;
+}
+/* base font */
+*{
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Top navigation container */
+.snav{
+    position: relative; /* so .nopts can be absolutely positioned to the right */
+    display: flex;
+    align-items: center;
+    padding: 12px 20px;
+    gap: 12px;
+    z-index:10 ;
+}
+
+/* push the group of buttons/icons to the top-right corner */
+.nopts{
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+/* badge style: visible background, centered icon, good contrast */
+.badge{
+    background: #1db954; /* Spotify green for visibility */
+    color: #fff;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 20px;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+/* ensure Font Awesome icons inherit the badge color and are sized nicely */
+.badge i{
+    color: inherit;
+    font-size: 0.95em;
+    line-height: 1;
+}
+
+/* small responsive tweak: if the header gets narrow, make badges slightly smaller */
+@media (max-width: 480px){
+    .badge{ padding: 4px 8px; font-size: 0.9rem; }
+    .nopts{ right: 10px; }
+}
+.library{
+    background-color: #121212;
+    border-radius: 1rem;
+    height: 100%;
+    margin: 0.5rem;
+}
+.opts{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:5px;
+}
+.lib-opts img{
+    height: 1.25rem;
+    width: 1.25rem;
+    
+    
+}
+.lib-opts a{
+    margin-left: 0.6rem;
+}
+.icons{
+    font-size: 1.25rem;
+    display: flex;
+}
+.icons i {
+    opacity: 0.7;
+    margin-right: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+.icons i:hover{
+    opacity: 1;
+}
+button{
+    font-weight: 700;
+}
+.boxes{
+    height: 8rem;
+    background-color: #232323;
+    border-radius: 0.75rem;
+    margin:0.75rem 0 1.75rem 0 ;
+    padding:0.5rem 1rem ;
+    line-height: 2rem;
+}
+.b1{
+    font-size: 1rem;
+    font-weight: 500;
+}
+.b2{
+    font-size: 0.85rem;
+    opacity: 0.9;
+}
+.badge{
+    background:#fff; 
+    color: #000000;
+    border: none;
+    border-radius:1rem;
+    padding: 6px 12px;
+    margin-top: 0.5rem;
+    font-weight: 600;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    height: auto;
+    width: fit-content;
+}
+
+.snav{
+    position: sticky; /* remains at top when scrolling */
+    top: 0;
+    background-color:#121212;
+    display: flex;
+    align-items: center;
+    padding: 12px 20px;
+    gap: 12px;
+}
+.c1{
+    background-color:#232323;
+    width: 200px;
+    border-radius: 0.5rem;
+    padding: 1rem;
+
+
+}
+/* .cards-row{
+    display: block;
+    margin-bottom: 1rem;
+} */
+
+.cardcon{
+    /* make each card flow inline with consistent spacing */
+    display: inline-block;
+    align-items: center;
+    vertical-align: top;
+    margin: 0 1rem 1rem 0; /* right and bottom spacing for wrapping */
+}
+.ci{
+    width: 100%;
+    border-radius: 0.5rem;
+
+}
+
+/* restore readable spacing for paragraphs (overrides the universal reset) */
+p{
+    margin: 0 0 1rem 0; /* top right bottom left */
+    line-height: 1.5;
+}
+/* ensure headings inside .cards have sensible spacing (in case of other layouts) */
+.cards h2{
+    margin: 0 0 0.4rem 0;
+}
+.cardt{
+    font-weight: 700;
+}
+.cardi{
+    font-size: 0.8rem;
+    opacity: 0.5;
+}
+.footer{
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.line{
+    width: 90%;
+    height: 30%;
+    border-top:1px solid white ;
+    opacity: 0.4;
+}
+.music-player{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.album{
+    width: 25%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.play{
+    width: 50%;
+}
+.ctrl{
+    position: relative;
+    width: 25%;
+    display: flex;
+    gap: 20px;
+    justify-content: right;
+    align-items: center;
+    right: 25px;
+}
+.ico{
+    height: 1rem;
+    margin-right: 2rem;
+    opacity: 0.5;
+}
+.ico:hover{
+    opacity: 1;
+}
+.pc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icoo{
+    height: 2rem;
+    margin-right: 2rem;
+}
+.pb{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.pbb{
+    width:70% ;
+    appearance: none;
+    background-color:transparent;
+    cursor: pointer;
+}
+.pbb::-webkit-slider-runnable-track{
+    background-color: #fff;
+    border-radius: 100px;
+    height: 0.15rem;
+}
+.pbb::-webkit-slider-thumb{
+    appearance: none;
+    height: 1rem;
+    width: 1rem;
+    background-color:#1bd760 ;
+    border-radius: 50%;
+    margin-top:-6px ;
+}
+.a{
+    position: relative;
+    height: 3rem;
+    border-radius: 5px;
+    left: 10px;
+}
+.b{
+    height: 25px;
+    width: 22px;
+    background-color: transparent;
+}
+.p1{
+    font-size: 15px;
+    
+}
+.p2{
+    font-size: 10px;
+    opacity: 0.7;
+   
+}
