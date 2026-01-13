@@ -2,7 +2,7 @@
 
 This repository contains my HTML, CSS, and JavaScript projects
 ## Projects
-Calculator
+Registration form
 To-Do App
 Simon Game
 
