@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatbox</title>
+    <link rel="stylesheet" href="/style.css"/>
+</head>
+<body>
+    <div class="container">
+        <h1>ChatBox</h1>
+        <h4>Manage conversations easily..</h4>
+        <p><b class="counter">Total Chats: <%= chats.length %></b></p>
+        <div class="top-bar">
+            <input type="text" id="searchInput" placeholder="🔍 Search Chat by sender">
+            <form method="GET" action="/chats/add">
+                <button>Add Chat</button>
+            </form>
+        
+        </div>
+        <div class="chat-container">
+            <% for(let chat of chats){ %>
+            <div class="chatb">
+                <p> From: <i class="sender"><%= chat.from%></i> </p>
+                <p> To: <i><%= chat.to%></i> </p>
+                <div class="msgb">
+                    <p><%= chat.msg%> </p> <hr><br>
+                    <p><%= chat.dnt.toString().split(" ")[4] %></p>
+                    <p><%= chat.dnt.toString().split(" ").slice(0,4).join("-") %></p><br>
+                    <form method="GET" action="/chats/<%=chat._id%>/edit">
+                        <button>Edit </button> 
+                    </form>
+                    <form method="POST" action="/chats/<%=chat._id%>?_method=DELETE"><BR>
+                        <button class="dlt-btn">Delete </button> 
+                    </form>
+                </div>           
+            </div>
+            <hr>
+            <% } %>
+        </div>
+    </div>
+       <script src="/script.js"></script>
+</body>
+</html>
