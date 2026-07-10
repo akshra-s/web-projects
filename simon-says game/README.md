@@ -10,7 +10,7 @@ The game tests your memory by generating an increasingly long sequence of colors
 
 ### Game Interface
 
-![Simon Game](gamplay.png)
+![Simon Game](gameplay.png)
 
 ### Game Over Screen
 
