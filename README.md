@@ -30,11 +30,11 @@ I'm currently expanding my skills in **Frontend Development, Backend Development
 
 ### ⚙️ Backend Projects
 
-- 💬 ChatBox *(Node.js • Express.js • MongoDB)*
+- 💬 ChatBox - *A real-time chat application*
+  
+## 🚀 Full Stack Projects
 
-### 🚀 Full Stack Projects
-
-> Coming Soon...
+- 🏡 StaySync - *A accommodation listing platform*
 
 ---
 
