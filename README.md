@@ -22,21 +22,10 @@ I'm currently expanding my skills in **Frontend Development, Backend Development
 
 ## 📚 Project Index
 
-### 🎨 Frontend Projects
-
 - ✅ To-Do App
 - 🎮 Simon Says Game
 - 🎵 Spotify Clone
-
-### ⚙️ Backend Projects
-
 - 💬 ChatBox - *A real-time chat application*
-  
-## 🚀 Full Stack Projects
-
-- 🏡 StaySync - *A accommodation listing platform*
-
----
 
 ## 🛠️ Technologies
 
@@ -66,20 +55,6 @@ web-projects/
 ├── to-do/
 └── ...
 ```
-
----
-
-## 🔮 What's Next?
-
-This repository will continue to grow with projects involving:
-
-- React
-- Full Stack Applications
-- Authentication & Authorization
-- REST APIs
-- Real-Time Applications
-- Database-Driven Projects
-- And much more...
 
 ---
 
