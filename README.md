@@ -1,50 +1,47 @@
 # 🌐 Web Projects
 
-Welcome! 👋
+A collection of my web development projects built while learning, experimenting, and exploring modern web technologies.
 
-This repository is a collection of my web development projects built while learning and exploring modern web technologies.
-
-Think of this repository as the **table of contents** of a book. Each project has its own dedicated folder and detailed `README.md` containing project information, setup instructions, features, and screenshots (where applicable).
+Each project is organized in its own folder with a dedicated `README.md` containing its features, setup instructions, tech stack, and screenshots where applicable.
 
 ---
 
 ## 👋 About Me
 
-Hi, I'm **Akshra Srivastava**.
+Hi, I'm **Akshra Srivastava**, a **B.Tech Information Technology** student at **Bhagwan Parshuram Institute of Technology (BPIT)**.
 
-I'm a **B.Tech Information Technology** student at **Bhagwan Parshuram Institute of Technology (BPIT)** with a passion for building web applications and continuously learning new technologies.
-
-I'm currently expanding my skills in **Frontend Development, Backend Development, and Full Stack Development** through hands-on projects.
+I'm passionate about building web applications and continuously improving my skills through hands-on projects, with a focus on **Frontend, Backend, and Full-Stack Development**.
 
 💼 **Open to internships, collaborations, and exciting opportunities.**
 
 ---
 
-## 📚 Project Index
+## 📚 Projects
 
-- ✅ To-Do App
-- 🎮 Simon Says Game
-- 🎵 Spotify Clone
-- 💬 ChatBox - *A real-time chat application*
+| Project                | Description                           |
+| ---------------------- | ------------------------------------- |
+| 📝 **To-Do App**       | A simple task management application  |
+| 🎮 **Simon Says Game** | An interactive memory-based game      |
+| 🎵 **Spotify Clone**   | A responsive music streaming UI clone |
+| 💬 **ChatBox**         | A real-time chat application          |
 
-## 🛠️ Technologies
+> 🚀 More projects will be added as I continue learning and building.
 
-- HTML5
-- CSS3
-- JavaScript (ES6+)
-- Node.js
-- Express.js
-- MongoDB
-- EJS
-- REST APIs
+---
 
-> More technologies will be added as I continue learning and building.
+## 🛠️ Tech Stack
+
+* **Frontend:** HTML5, CSS3, JavaScript (ES6+)
+* **Backend:** Node.js, Express.js
+* **Database:** MongoDB
+* **Templating:** EJS
+* **APIs:** REST APIs
 
 ---
 
 ## 📁 Repository Structure
 
-Each project is self-contained and includes its own `README.md` with project-specific documentation.
+Each project is self-contained with its own documentation and source code.
 
 ```text
 web-projects/
@@ -58,6 +55,10 @@ web-projects/
 
 ---
 
+## ⭐ Explore & Connect
+
+Feel free to explore the projects, check out their individual READMEs, and follow along as I continue building and learning.
+
 ⭐ **If you find this repository interesting, consider giving it a star!**
 
-Made with ❤️ by **Akshra Srivastava**
+**Made with ❤️ by Akshra Srivastava**
