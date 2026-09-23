@@ -1,5 +1,30 @@
-.sBox{
+body {
+    background-color: white;
+}
+h3{
+    color: rgba(0, 0, 0, 0.817);;
+}
+.sBox {
+    width: 450px;
+    margin: 10px auto;
+    padding: 30px;
     text-align: center;
-    background-color: lightblue;
-    padding: 20px;
+    border-radius: 15px;
+    background-color: #a8cafe;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+}
+
+.sBox h4 {
+    margin-bottom: 25px;
+    font-size: 20px;
+    color:rgba(0, 0, 0, 0.817);
+    background-color: transparent;
+}
+
+.sBox form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: transparent;
 }

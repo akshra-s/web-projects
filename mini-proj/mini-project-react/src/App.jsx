@@ -1,4 +1,5 @@
 // import './App.css';
+import "./Search.css";
 import Search from "./Search.jsx";
 
 function App() {
@@ -7,7 +8,7 @@ function App() {
   }
   return (
     <>
-      <h3>Weather Finder</h3>
+      <h3>Weather Finder &#128269;</h3>
       <Search/>
     </>
   );
