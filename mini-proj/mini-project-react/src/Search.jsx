@@ -14,6 +14,7 @@ export default function Searchbox(){
         let jsonRes=await res.json();
         // console.log(jsonRes);
         let result ={
+            city:city,
             weather:jsonRes.weather[0].description,
             feelsLike:jsonRes.main.feels_like,
             temp:jsonRes.main.temp,
@@ -28,7 +29,7 @@ export default function Searchbox(){
     
     let handleSubmit=(event)=>{
         event.preventDefault();
-        console.log(city);
+        // console.log(city);
         setCity("");
         getWeather();
     };
