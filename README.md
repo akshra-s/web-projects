@@ -1,6 +1,6 @@
 # 🌐 Web Projects
 
-A collection of my web development projects built while learning, experimenting, and exploring modern web technologies.
+A collection of my web development projects built while learning, experimenting, and exploring different web technologies.
 
 Each project is organized in its own folder with a dedicated `README.md` containing its features, setup instructions, tech stack, and screenshots where applicable.
 
@@ -18,12 +18,13 @@ I'm passionate about building web applications and continuously improving my ski
 
 ## 📚 Projects
 
-| Project                | Description                           |
-| ---------------------- | ------------------------------------- |
-| 📝 **To-Do App**       | A simple task management application  |
-| 🎮 **Simon Says Game** | An interactive memory-based game      |
-| 🎵 **Spotify Clone**   | A responsive music streaming UI clone |
-| 💬 **ChatBox**         | A real-time chat application          |
+| Project | Description |
+|---------|-------------|
+| 📝 **To-Do App** | A simple task management application |
+| 🎮 **Simon Says Game** | An interactive memory-based game |
+| 🎵 **Spotify Clone** | A responsive music streaming UI clone |
+| 💬 **ChatBox** | A real-time chat application |
+| 🌤️ **Weather App** | A React-based weather application using the OpenWeatherMap API |
 
 > 🚀 More projects will be added as I continue learning and building.
 
@@ -31,11 +32,13 @@ I'm passionate about building web applications and continuously improving my ski
 
 ## 🛠️ Tech Stack
 
-* **Frontend:** HTML5, CSS3, JavaScript (ES6+)
+* **Frontend:** HTML5, CSS3, JavaScript (ES6+), React.js
+* **UI Library:** Bootstrap, Material UI
 * **Backend:** Node.js, Express.js
 * **Database:** MongoDB
 * **Templating:** EJS
-* **APIs:** REST APIs
+* **APIs:** REST APIs, OpenWeatherMap API
+* **Tools:** Git, GitHub, Vite
 
 ---
 
@@ -50,10 +53,9 @@ web-projects/
 ├── simon-says-game/
 ├── spotify-clone/
 ├── to-do/
+├── weather-app/
 └── ...
 ```
-
----
 
 ## ⭐ Explore & Connect
 
